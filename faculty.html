@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S. J. S. Public School | Faculty</title>
+  <meta
+    name="description"
+    content="Faculty and staff directory for S. J. S. Public School with leadership highlights and searchable staff details."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/data.js"></script>
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body data-page="faculty">
+  <div data-site-header></div>
+
+  <main id="main-content">
+    <section id="faculty-leadership-section" class="section">
+      <div class="section-header section-header--compact faculty-leadership-header" data-reveal>
+        <p class="eyebrow">Leadership Team</p>
+        <h2>Key roles for parent-facing visibility</h2>
+      </div>
+      <div id="faculty-leadership" class="faculty-table-wrap"></div>
+    </section>
+
+    <section id="faculty-directory-section" class="section section--accent">
+      <div class="directory-toolbar" data-reveal>
+        <div>
+          <p class="eyebrow">Staff Directory</p>
+          <h2>Browse all staff records</h2>
+          <p id="faculty-count" class="page-note"></p>
+        </div>
+
+        <div class="directory-controls">
+          <label class="visually-hidden" for="faculty-search">Search faculty or staff</label>
+          <input
+            id="faculty-search"
+            class="search-input"
+            type="search"
+            placeholder="Search by name, role, or qualification"
+          >
+          <div class="filter-row" role="group" aria-label="Faculty filters">
+            <button class="filter-chip is-active" type="button" data-staff-filter="all">All</button>
+            <button class="filter-chip" type="button" data-staff-filter="teaching">Teaching</button>
+            <button class="filter-chip" type="button" data-staff-filter="support">Support</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="faculty-grid" class="faculty-table-wrap"></div>
+    </section>
+
+    <section class="section">
+      <article class="profile-note" data-reveal>
+        <p class="eyebrow">Faculty Information</p>
+        <p>
+          This directory is intended to make faculty and staff information easier for parents and
+          visitors to review. As with any school directory, names, roles, and qualifications should
+          be updated whenever the school publishes a revised staff list.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Generic learning and growth illustration</title>
+  <desc id="desc">An open book with leaves, upward movement, and supportive learning symbols.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbf5ea"/>
+      <stop offset="100%" stop-color="#dbe8f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg)"/>
+  <circle cx="152" cy="124" r="88" fill="#f6e1b5"/>
+  <circle cx="762" cy="522" r="110" fill="#d7e4f3"/>
+  <g opacity="0.25" fill="#17365f">
+    <circle cx="698" cy="126" r="76"/>
+    <circle cx="748" cy="174" r="46"/>
+  </g>
+  <g transform="translate(168 116)">
+    <path d="M96 322c54-112 144-168 286-168s232 56 286 168" fill="none" stroke="#d9c9a4" stroke-width="22" stroke-linecap="round"/>
+    <g>
+      <path d="M92 334c86-34 176-52 270-52 70 0 144 16 220 48v118c-74-28-146-42-218-42-92 0-182 18-272 54z" fill="#ffffff" stroke="#17365f" stroke-width="10" stroke-linejoin="round"/>
+      <path d="M582 330c-86-34-176-52-270-52-70 0-144 16-220 48v118c74-28 146-42 218-42 92 0 182 18 272 54z" fill="#edf4fb" stroke="#17365f" stroke-width="10" stroke-linejoin="round"/>
+      <path d="M336 314v154" stroke="#c0863d" stroke-width="12" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(246 40)">
+      <path d="M88 142c-56-40-76-92-60-156 58 30 86 82 82 152-8 4-14 6-22 4z" fill="#6f9a61"/>
+      <path d="M122 170c-12-68 8-122 58-160 34 58 24 114-26 170-10 0-20-2-32-10z" fill="#93b779"/>
+      <path d="M160 178c12-56 50-92 110-108 2 64-34 108-106 132-4-8-6-16-4-24z" fill="#c0863d"/>
+    </g>
+    <g transform="translate(110 68)" fill="none" stroke="#17365f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M38 132l58-58 42 42 90-90"/>
+      <path d="M382 118l42-42 46 46 82-82"/>
+    </g>
+    <g fill="#c0863d">
+      <circle cx="146" cy="126" r="14"/>
+      <circle cx="620" cy="104" r="14"/>
+      <circle cx="544" cy="212" r="10"/>
+      <circle cx="228" cy="190" r="10"/>
+    </g>
+  </g>
+</svg>

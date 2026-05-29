@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S. J. S. Public School | Welcome</title>
+  <meta
+    name="description"
+    content="S. J. S. Public School, Kasganj. Explore admissions, faculty, campus location, and enquiry details for families and students."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/data.js"></script>
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body data-page="home">
+  <div data-site-header></div>
+
+  <main id="main-content">
+    <section class="page-hero page-hero--home">
+      <div class="hero-media hero-gallery" data-reveal data-hero-gallery aria-label="School image gallery">
+        <button
+          class="hero-gallery__arrow hero-gallery__arrow--prev"
+          type="button"
+          data-gallery-prev
+          aria-label="Show previous image"
+        >
+          <span aria-hidden="true">&#8249;</span>
+        </button>
+
+        <div class="hero-gallery__slides">
+          <article class="hero-panel hero-gallery__slide hero-panel--poster is-active" data-gallery-slide>
+            <img src="assets/images/school-poster.png" alt="S. J. S. Public School campus poster">
+          </article>
+          <article class="hero-panel hero-gallery__slide hero-panel--photo" data-gallery-slide hidden>
+            <img src="assets/images/students-girls.jpg" alt="Students in school uniform standing near the campus entrance">
+          </article>
+          <article class="hero-panel hero-gallery__slide hero-panel--photo" data-gallery-slide hidden>
+            <img src="assets/images/students-boys.jpg" alt="Students holding books on campus">
+          </article>
+        </div>
+
+        <button
+          class="hero-gallery__arrow hero-gallery__arrow--next"
+          type="button"
+          data-gallery-next
+          aria-label="Show next image"
+        >
+          <span aria-hidden="true">&#8250;</span>
+        </button>
+      </div>
+
+      <div class="hero-copy" data-reveal>
+        <div class="hero-copy__top">
+          <h1>Welcome to SJS Public School</h1>
+          <div class="button-row hero-copy__actions">
+            <a class="button" href="academics.html">Admission Details</a>
+            <a class="button button--secondary" href="enquiry.html">Send Enquiry</a>
+          </div>
+        </div>
+        <p class="hero-text">
+          S. J. S. Public School offers a student-centered learning environment where academic
+          strength, values, and personal growth go hand in hand. Families can explore admissions,
+          faculty, contact details, and campus information from one clear and welcoming website.
+        </p>
+        <div class="hero-meta">
+          <span class="meta-pill">CBSE Affiliated</span>
+          <span class="meta-pill">Classes Nursery to XII</span>
+          <span class="meta-pill">Soron Road Campus</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div id="home-stats" class="stats-grid"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-header section-header--compact home-leadership-header" data-reveal>
+        <p class="eyebrow">Leadership</p>
+        <h2>Academic leadership and student support at a glance.</h2>
+      </div>
+      <div id="home-leadership" class="card-grid"></div>
+    </section>
+
+    <section class="section section--accent">
+      <div class="section-header section-header--compact home-pillars-header" data-reveal>
+        <p class="eyebrow">Why Families Choose SJS</p>
+        <h2>A balanced learning journey supported by care, clarity, and committed teachers.</h2>
+      </div>
+      <div id="home-pillars" class="card-grid"></div>
+    </section>
+
+    <section class="section">
+      <div class="split-layout">
+        <div>
+          <div class="section-header section-header--compact home-admission-header" data-reveal>
+            <p class="eyebrow">Admissions Snapshot</p>
+            <h2>Clear steps for families planning a new admission.</h2>
+          </div>
+          <div id="home-admission-steps" class="step-grid"></div>
+        </div>
+
+        <aside class="note-panel" data-reveal>
+          <p class="eyebrow">Quick Note</p>
+          <h3>Admission guidance, fee structure, and school calendar are available together.</h3>
+          <p>
+            Parents can review key admission windows, fee slabs, and supporting files before
+            contacting the school for the next step.
+          </p>
+          <div class="button-stack">
+            <a class="button" href="academics.html">Open Academics Page</a>
+            <a class="button button--ghost" href="assets/docs/academic-calendar.pdf" target="_blank" rel="noreferrer">
+              Academic Calendar
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="contact-band">
+        <article class="contact-card" data-reveal>
+          <p class="eyebrow">Visit the Campus</p>
+          <h2>Soron Road, Kasganj</h2>
+          <p>
+            Find the school address, contact details, school code, and location map in one place so
+            your campus visit is easy to plan.
+          </p>
+          <div class="button-row">
+            <a class="button" href="location.html">Open Location Page</a>
+            <a class="button button--secondary" href="enquiry.html">Ask a Question</a>
+            </div>
+        </article>
+
+        <div class="map-frame" data-reveal>
+          <iframe
+            title="Map showing S. J. S. Public School, Kasganj"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=S.J.S%20Public%20School%20Soron%20Road%20Kasganj%20207123&output=embed"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+</body>
+</html>

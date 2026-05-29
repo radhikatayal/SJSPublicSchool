@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Generic school campus illustration</title>
+  <desc id="desc">A bright school building with trees, a pathway, and a soft morning sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef6ff"/>
+      <stop offset="100%" stop-color="#d9e7f7"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d9caa9"/>
+      <stop offset="100%" stop-color="#c6b387"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#sky)"/>
+  <circle cx="760" cy="110" r="56" fill="#f7d78a"/>
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="180" cy="110" rx="74" ry="28"/>
+    <ellipse cx="242" cy="112" rx="48" ry="22"/>
+    <ellipse cx="632" cy="158" rx="72" ry="26"/>
+    <ellipse cx="684" cy="160" rx="46" ry="20"/>
+  </g>
+  <rect y="468" width="900" height="182" fill="url(#ground)"/>
+  <path d="M364 650 L448 430 L532 650 Z" fill="#efe4c4"/>
+  <path d="M408 650 L450 492 L492 650 Z" fill="#d3c09a"/>
+  <g>
+    <rect x="176" y="202" width="548" height="248" rx="18" fill="#fff8ec" stroke="#17365f" stroke-width="10"/>
+    <rect x="228" y="158" width="444" height="72" rx="16" fill="#17365f"/>
+    <rect x="322" y="112" width="256" height="64" rx="12" fill="#c0863d"/>
+    <path d="M294 190 L450 120 L606 190" fill="none" stroke="#102a4a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="404" y="298" width="92" height="152" rx="12" fill="#17365f"/>
+    <circle cx="476" cy="374" r="6" fill="#f7d78a"/>
+    <g fill="#dfe8f4" stroke="#17365f" stroke-width="7">
+      <rect x="246" y="262" width="96" height="76" rx="10"/>
+      <rect x="246" y="354" width="96" height="76" rx="10"/>
+      <rect x="558" y="262" width="96" height="76" rx="10"/>
+      <rect x="558" y="354" width="96" height="76" rx="10"/>
+    </g>
+  </g>
+  <g>
+    <rect x="128" y="344" width="16" height="124" rx="8" fill="#7c5a3e"/>
+    <circle cx="136" cy="328" r="48" fill="#7ea96c"/>
+    <circle cx="106" cy="350" r="34" fill="#94ba7a"/>
+    <circle cx="162" cy="352" r="32" fill="#6e955d"/>
+    <rect x="756" y="336" width="16" height="132" rx="8" fill="#7c5a3e"/>
+    <circle cx="764" cy="320" r="50" fill="#7ea96c"/>
+    <circle cx="734" cy="344" r="34" fill="#93b779"/>
+    <circle cx="792" cy="346" r="34" fill="#6e955d"/>
+  </g>
+  <g opacity="0.9">
+    <rect x="218" y="476" width="62" height="22" rx="11" fill="#17365f"/>
+    <rect x="620" y="476" width="62" height="22" rx="11" fill="#17365f"/>
+    <rect x="286" y="476" width="62" height="22" rx="11" fill="#c0863d"/>
+    <rect x="552" y="476" width="62" height="22" rx="11" fill="#c0863d"/>
+  </g>
+</svg>

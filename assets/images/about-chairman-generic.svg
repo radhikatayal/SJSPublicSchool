@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Generic student achievement illustration</title>
+  <desc id="desc">Three students holding books with stars and academic symbols in the background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6f2ea"/>
+      <stop offset="100%" stop-color="#e0ecf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg)"/>
+  <circle cx="178" cy="134" r="82" fill="#f5e5bf"/>
+  <circle cx="742" cy="150" r="102" fill="#dce8f5"/>
+  <g fill="#c0863d" opacity="0.85">
+    <path d="M188 116l14 28 30 4-22 22 6 32-28-16-28 16 6-32-22-22 30-4z"/>
+    <path d="M706 96l10 20 22 4-16 16 4 22-20-12-20 12 4-22-16-16 22-4z"/>
+    <circle cx="782" cy="224" r="10"/>
+    <circle cx="738" cy="260" r="8"/>
+  </g>
+  <g transform="translate(108 164)">
+    <g transform="translate(0 46)">
+      <circle cx="132" cy="72" r="46" fill="#f4c8a8"/>
+      <path d="M84 78c10-34 34-52 62-52 34 0 56 22 60 56-18-10-34-14-58-14-22 0-40 4-64 10z" fill="#17365f"/>
+      <rect x="90" y="120" width="84" height="124" rx="26" fill="#c0863d"/>
+      <rect x="62" y="242" width="54" height="120" rx="24" fill="#17365f"/>
+      <rect x="148" y="242" width="54" height="120" rx="24" fill="#17365f"/>
+      <rect x="42" y="166" width="62" height="34" rx="14" fill="#f4c8a8"/>
+      <rect x="160" y="166" width="62" height="34" rx="14" fill="#f4c8a8"/>
+      <rect x="58" y="194" width="148" height="92" rx="16" fill="#fff8ec" stroke="#17365f" stroke-width="8"/>
+      <rect x="84" y="220" width="96" height="12" rx="6" fill="#dfe8f4"/>
+      <rect x="84" y="244" width="72" height="12" rx="6" fill="#dfe8f4"/>
+    </g>
+    <g transform="translate(250 0)">
+      <circle cx="132" cy="72" r="46" fill="#f2c29d"/>
+      <path d="M86 70c0-38 28-62 62-62 38 0 64 26 64 66-22-8-40-10-64-10-22 0-40 2-62 6z" fill="#c0863d"/>
+      <rect x="90" y="120" width="84" height="138" rx="26" fill="#17365f"/>
+      <rect x="62" y="258" width="54" height="104" rx="24" fill="#c0863d"/>
+      <rect x="148" y="258" width="54" height="104" rx="24" fill="#c0863d"/>
+      <rect x="40" y="170" width="62" height="34" rx="14" fill="#f2c29d"/>
+      <rect x="162" y="170" width="62" height="34" rx="14" fill="#f2c29d"/>
+      <path d="M102 186h60l48 36-48 36h-60l-22-36z" fill="#f6d37f" stroke="#102a4a" stroke-width="8" stroke-linejoin="round"/>
+      <rect x="126" y="196" width="12" height="52" rx="6" fill="#102a4a"/>
+    </g>
+    <g transform="translate(500 54)">
+      <circle cx="132" cy="72" r="46" fill="#f5ccb2"/>
+      <path d="M88 78c8-34 32-54 58-54 38 0 60 26 64 60-18-8-34-12-60-12-20 0-38 2-62 6z" fill="#3c5f8f"/>
+      <rect x="90" y="120" width="84" height="118" rx="26" fill="#6f9a61"/>
+      <rect x="62" y="236" width="54" height="126" rx="24" fill="#17365f"/>
+      <rect x="148" y="236" width="54" height="126" rx="24" fill="#17365f"/>
+      <rect x="40" y="164" width="64" height="32" rx="14" fill="#f5ccb2"/>
+      <rect x="160" y="164" width="64" height="32" rx="14" fill="#f5ccb2"/>
+      <rect x="56" y="196" width="150" height="88" rx="16" fill="#eef6ff" stroke="#17365f" stroke-width="8"/>
+      <circle cx="102" cy="238" r="18" fill="#c0863d"/>
+      <rect x="132" y="220" width="48" height="12" rx="6" fill="#b8cce0"/>
+      <rect x="132" y="246" width="38" height="12" rx="6" fill="#b8cce0"/>
+    </g>
+  </g>
+</svg>

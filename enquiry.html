@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S. J. S. Public School | Contact Us</title>
+  <meta
+    name="description"
+    content="Contact S. J. S. Public School for admissions, fee details, campus visits, and general school enquiries."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/data.js"></script>
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body data-page="enquiry">
+  <div data-site-header></div>
+
+  <main id="main-content">
+    <section class="section section--accent">
+      <div class="section-header section-header--compact" data-reveal>
+        <p class="eyebrow">Contact Us</p>
+        <h1>Get In Touch With S. J. S. Public School</h1>
+        <p class="page-note">
+          For admissions, fee details, campus visits, school documents, or general school support,
+          families can contact the school office directly or send a message through the form below.
+        </p>
+      </div>
+
+      <div class="enquiry-quick-grid">
+        <article class="enquiry-quick-card" data-reveal>
+          <p class="eyebrow">Address</p>
+          <h2>Visit The School Office</h2>
+          <p>Tayal Compound, Soron Road, Kasganj - 207123, Uttar Pradesh</p>
+          <a class="button button--ghost" href="location.html">Open Location Page</a>
+        </article>
+
+        <article class="enquiry-quick-card" data-reveal>
+          <p class="eyebrow">Phone</p>
+          <h2>Speak To The School</h2>
+          <p>Main Office: +91 9105778822</p>
+          <p>Alternate: +91 9837302377</p>
+          <a class="button button--ghost" href="tel:+919105778822">Call School Office</a>
+        </article>
+
+        <article class="enquiry-quick-card" data-reveal>
+          <p class="eyebrow">Email</p>
+          <h2>Write To The School</h2>
+          <p>sjspublicschoolksj@gmail.com</p>
+          <p>Useful for admission queries, school visits, and student support questions.</p>
+          <a class="button button--ghost" href="mailto:sjspublicschoolksj@gmail.com">Send Email</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="contact-band enquiry-contact-layout">
+        <aside class="contact-card enquiry-contact-card" data-reveal>
+          <p class="eyebrow">School Office</p>
+          <h2>Direct Contact Details</h2>
+          <p>
+            Parents and guardians can contact the school office for admissions, fee guidance,
+            campus visit planning, transfer certificate support, and general school information.
+          </p>
+
+          <div class="enquiry-contact-list">
+            <div class="enquiry-contact-item">
+              <span class="enquiry-contact-item__label">Phone</span>
+              <a href="tel:+919105778822">+91 9105778822</a>
+            </div>
+
+            <div class="enquiry-contact-item">
+              <span class="enquiry-contact-item__label">Alternate Number</span>
+              <a href="tel:+919837302377">+91 9837302377</a>
+            </div>
+
+            <div class="enquiry-contact-item">
+              <span class="enquiry-contact-item__label">Email</span>
+              <a href="mailto:sjspublicschoolksj@gmail.com">sjspublicschoolksj@gmail.com</a>
+            </div>
+
+            <div class="enquiry-contact-item">
+              <span class="enquiry-contact-item__label">Address</span>
+              <p>Tayal Compound, Soron Road, Kasganj - 207123, Uttar Pradesh</p>
+            </div>
+          </div>
+
+          <div class="enquiry-side-panel">
+            <p class="eyebrow">Useful Links</p>
+            <ul class="document-list">
+              <li><a href="academics.html">Admissions, Fee Structure, and Academic Calendar</a></li>
+              <li><a href="cbse-info.html">CBSE Info and School Documents</a></li>
+              <li><a href="faculty.html">Faculty and Staff Directory</a></li>
+              <li><a href="location.html">Location, Campus Map, and School Details</a></li>
+            </ul>
+          </div>
+        </aside>
+
+        <form
+          class="enquiry-form enquiry-form--contact"
+          name="school-enquiry"
+          method="POST"
+          action="/thank-you.html"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          data-enquiry-form
+          novalidate
+          data-reveal
+        >
+          <input type="hidden" name="form-name" value="school-enquiry">
+          <p class="honeyfield" aria-hidden="true">
+            <label>
+              Do not fill this field
+              <input name="bot-field" type="text" tabindex="-1" autocomplete="off">
+            </label>
+          </p>
+          <div class="section-header section-header--compact">
+            <p class="eyebrow">Get In Touch</p>
+            <h2>Send Your Message To The School</h2>
+          </div>
+          <p class="form-intro">
+            Share your contact details and enquiry below. The school can then follow up about
+            admission steps, class groups, visit planning, or any other question you may have.
+          </p>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="name">Parent or guardian name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+              <p class="field-error" data-error-for="name"></p>
+            </div>
+
+            <div class="field">
+              <label for="student-name">Student name</label>
+              <input id="student-name" name="student-name" type="text" autocomplete="off">
+              <p class="field-error" data-error-for="student-name"></p>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="phone">Phone number</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+              <p class="field-error" data-error-for="phone"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" autocomplete="email">
+              <p class="field-error" data-error-for="email"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="interest">Purpose of enquiry</label>
+            <select id="interest" name="interest">
+              <option value="">Select an option</option>
+              <option value="Nursery / K.G.">Nursery / K.G.</option>
+              <option value="I to V">I to V</option>
+              <option value="VI to VIII">VI to VIII</option>
+              <option value="IX to X">IX to X</option>
+              <option value="XI to XII">XI to XII</option>
+              <option value="Campus visit">Campus visit</option>
+              <option value="Transfer certificate">Transfer certificate</option>
+              <option value="General enquiry">General enquiry</option>
+            </select>
+            <p class="field-error" data-error-for="interest"></p>
+          </div>
+
+          <div class="field">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+            <p class="field-error" data-error-for="message"></p>
+          </div>
+
+          <p class="form-note">
+            For urgent matters, please call the school office directly. Online enquiries are
+            received through the website form after deployment.
+          </p>
+
+          <div class="button-row">
+            <button class="button" type="submit">Send Enquiry</button>
+            <a class="button button--ghost" href="tel:+919105778822">Call School Office</a>
+          </div>
+
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="enquiry-map-shell" data-reveal>
+        <div class="section-header section-header--compact">
+          <p class="eyebrow">Location</p>
+          <h2>Find The School Easily</h2>
+          <p class="page-note">
+            Use the location map below for quick campus direction support and visit planning.
+          </p>
+        </div>
+
+        <div class="page-banner enquiry-map-banner">
+          <img src="assets/images/campus-map.png" alt="Campus map showing the location of S. J. S. Public School">
+        </div>
+
+        <div class="button-row enquiry-map-actions">
+          <a class="button button--ghost" href="location.html">Open Full Location Page</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div data-site-footer></div>
+</body>
+</html>
